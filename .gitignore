@@ -1,0 +1,25 @@
+# 🛡 Seguridad para archivos sensibles
+
+.env
+.env.local
+.env.production
+.env.development
+.env.*
+
+# 🔁 Archivos de datos de n8n (si decides exportar localmente)
+*.n8n.json
+n8n-flows.json
+
+# 🗂 Backups o exports locales
+*.backup.json
+*.export.json
+
+# 💻 Archivos temporales / sistema
+node_modules/
+dist/
+.vscode/
+.DS_Store
+
+# 🐳 Archivos temporales de Docker
+docker-compose.override.yml
+docker-compose.dev.yml
